@@ -13,7 +13,7 @@ function App() {
   const onFormSubmit = () => {
     setIsLoadingPage(true);
     const configuration = new Configuration({
-      apiKey: "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",
+      apiKey: "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",
     });
     const openai = new OpenAIApi(configuration);
 
@@ -22,7 +22,7 @@ function App() {
         model: "text-davinci-003",
         prompt: `Write a Blog about ${text}`,
         temperature: 0,
-        max_tokens: 2000,
+        max_tokens: 1000,
         top_p: 1.0,
         frequency_penalty: 0.0,
         presence_penalty: 0.0,
