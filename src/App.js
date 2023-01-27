@@ -13,7 +13,7 @@ function App() {
   const onFormSubmit = () => {
     setIsLoadingPage(true);
     const configuration = new Configuration({
-      apiKey: "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",
+      apiKey: "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",
     });
     const openai = new OpenAIApi(configuration);
 
@@ -59,7 +59,7 @@ function App() {
         </div>
       </Col>
       <Col md={8} style={{ maxWidth: 800,  }} className="p-5">
-        <Card  className="m-auto" style={{ height: "500px" }}>
+        <Card  className="m-auto" style={{ minHeight: "500px" }}>
           <Card.Body>
             <Card.Text>
               {isLoadingPage ? (
