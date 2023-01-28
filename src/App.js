@@ -13,7 +13,7 @@ function App() {
   const onFormSubmit = () => {
     setIsLoadingPage(true);
     const configuration = new Configuration({
-      apiKey: "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",
+      apiKey: "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",
     });
     const openai = new OpenAIApi(configuration);
 
